@@ -1,0 +1,60 @@
+#central-panel {
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+    background-color: #fff;
+}
+
+body {
+    background-color: #f6f8f9;
+}
+
+header {
+    background-color: #fff;
+}
+
+hr {
+    margin-top: 0px;
+    border: 2px solid #f6f8f9;
+}
+
+.left-padding {
+    padding-left: 40px;
+
+}
+
+.button-vertical-margin {
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.tag {
+    background-color: aqua;
+    border-radius: 20px;
+    padding: 5px;
+    color: #fff;
+    font-size: 65%;
+}
+
+.editorial-bg {
+    background-color: #09a9ed;
+}
+
+.q1-goals-bg {
+    background-color: #ab5de6;
+}
+
+.mobile-bg {
+    background-color: #ff9b00;
+}
+
+.recruiting-bg {
+    background-color: #2cc6ab;
+}
+
+.website-bg {
+    background-color: #ec4a9d;
+}
+
+.sales-bg{background-color: #a3d116;}

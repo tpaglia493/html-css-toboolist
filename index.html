@@ -14,45 +14,47 @@
     <header>
         <img src="./img/Toboolist-logo.jpg" alt="Toboolist-logo">
     </header>
-<!--central panel with the toboolist-->
+    <!--central panel with the toboolist-->
     <main>
-        <!--toolbar with 2 buttons-->
-        <nav>
-            <button>Add Task</button>
-            <button>Add Section</button>
-        </nav>
-        <hr>
-        <!--dropdown lists section-->
-        <section>
+        <div id="central-panel">
+            <!--toolbar with 2 buttons-->
+            <nav class="left-padding">
+                <button class="button-vertical-margin">Add Task</button>
+                <button class="button-vertical-margin">Add Section</button>
+            </nav>
+            <hr>
+            <!--dropdown lists section-->
+            <section class="left-padding">
 
-            <details>
-                <!--dropdown list-->
-                <summary>New Task</summary>
-                <!--check-boxes-->
-                <p><button>&#10003;</button>Qaurterly Newsletter<span>Editorial</span></p>
-            </details>
+                <details open>
+                    <!--dropdown list-->
+                    <summary>New Task</summary>
+                    <!--check-boxes-->
+                    <p><button>&#10003;</button>Qaurterly Newsletter<span class="tag editorial-bg">Editorial</span></p>
+                </details>
 
-            <details>
-                <!--dropdown list-->
-                <summary>Today</summary>
-                <!--check-boxes-->
-                <p><button>&#10003;</button>Recruiting blog post<span>Editorial</span></p>
-                <p><button>&#10003;</button>Mobile app launch<span>Q1 Goals</span></p>
-                <p><button>X</button>Interview John H.<span>Recruiting</span></p>
-                <p><button>&#10003;</button>Summit update to mobile storefonts<span>Mobile</span></p>
-            </details>
+                <details open>
+                    <!--dropdown list-->
+                    <summary>Today</summary>
+                    <!--check-boxes-->
+                    <p><button>&#10003;</button>Recruiting blog post<span class="tag editorial-bg">Editorial</span></p>
+                    <p><button>&#10003;</button>Mobile app launch<span class="tag q1-goals-bg">Q1 Goals</span></p>
+                    <p><button>X</button>Interview John H.<span class="tag recruiting-bg">Recruiting</span></p>
+                    <p><button>&#10003;</button>Summit update to mobile storefonts<span class="tag mobile-bg">Mobile</span></p>
+                </details>
 
-            <details>
-                <!--dropdown list-->
-                <summary>Upcoming</summary>
-                <!--check-boxes-->
-                <p><button>X</button>Schedule meeting with Alex<span></span></p>
-                <p><button>&#10003;</button>Homepage refresh<span>Website</span></p>
-                <p><button>&#10003;</button>Onboard new Sales team members<span>Sales</span></p>
-                <p><button>&#10003;</button>Review editorial calendar<span>Editorial</span></p>
-            </details>
+                <details open>
+                    <!--dropdown list-->
+                    <summary>Upcoming</summary>
+                    <!--check-boxes-->
+                    <p><button>X</button>Schedule meeting with Alex</p>
+                    <p><button>&#10003;</button>Homepage refresh<span class="tag website-bg">Website</span></p>
+                    <p><button>&#10003;</button>Onboard new Sales team members<span class="tag sales-bg">Sales</span></p>
+                    <p><button>&#10003;</button>Review editorial calendar<span class="tag editorial-bg">Editorial</span></p>
+                </details>
 
-        </section>
+            </section>
+        </div>
     </main>
 
 
