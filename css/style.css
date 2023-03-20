@@ -18,9 +18,24 @@ hr {
     border: 2px solid #f6f8f9;
 }
 
+.details-margin {
+    margin-top: 20px;
+}
+
+nav button {
+    background-color: #fff;
+    border: 1px solid #d0d2d3;
+    border-radius: 5px;
+}
+
 .left-padding {
     padding-left: 40px;
 
+}
+
+.vertical-padding {
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .button-vertical-margin {
@@ -35,6 +50,7 @@ hr {
     padding: 5px;
     color: #fff;
     font-size: 65%;
+    margin: 5px;
 }
 
 .editorial-bg {
@@ -57,4 +73,29 @@ hr {
     background-color: #ec4a9d;
 }
 
-.sales-bg{background-color: #a3d116;}
+.sales-bg {
+    background-color: #a3d116;
+}
+
+.checkbox {
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: #fff;
+    margin-right: 5px;
+    padding-left: 2px;
+    line-height: 15px;
+
+
+}
+
+.checked {
+    color: #2cc6ab;
+    border: 1px solid #2cc6ab;
+}
+
+.to-do {
+    color: #ff0000;
+    border: 1px solid #ff0000;
+}
