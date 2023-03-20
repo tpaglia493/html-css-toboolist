@@ -7,6 +7,8 @@
 
 body {
     background-color: #f6f8f9;
+    font-family: 'Roboto', sans-serif;
+    color: #434851;
 }
 
 header {
@@ -16,6 +18,12 @@ header {
 hr {
     margin-top: 0px;
     border: 2px solid #f6f8f9;
+}
+
+summary {
+    font-weight: 700;
+    color: #434851;
+    font-size: large;
 }
 
 .details-margin {
