@@ -36,6 +36,10 @@ nav button {
     border-radius: 5px;
 }
 
+nav button:hover {
+    background-color: #14aaf5;
+}
+
 .left-padding {
     padding-left: 40px;
 
@@ -93,7 +97,7 @@ nav button {
     background-color: #fff;
     margin-right: 5px;
     padding-left: 2px;
-    line-height: 15px;
+    line-height: 13px;
 
 
 }
